@@ -1,8 +1,65 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family: verdana;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+/* navBar */
+
+
+/* CSS for navBar */
+
+  
+  .navBar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navBar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navBar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Responsive navBar */
+  .navBar .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navBar a:not(:first-child) {display: none;}
+    .navBar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navBar.responsive {position: relative;}
+    .navBar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navBar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
   
 .container {
     display: flex;
@@ -10,23 +67,24 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    
     /* height: 50vh; */
     /* background-color: #a2a8d3; */
 }
   
 h1 {
-    color: rgb(238, 124, 10);
+    color: whitesmoke;
     text-align: center;
 }
   
 .digit {
     font-size: 100px;
-    color: #000000;
+    color: #ffffff;
 }
   
 .txt {
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
 }
   
 #buttons {
@@ -65,13 +123,128 @@ h1 {
 }
 
 #timer{
-    border: 4px solid black;
+    border: 5px solid #DDDDDD;
     padding: 50px;
-    border-radius: 4vh;
+    border-radius: 15vh;
     margin: 10px;
+    background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+    margin-left: 150px;
+    margin-right: 150px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 40px;
 }
 
-.harish
+body
 {
-    background-color: #a2a8d3;
+    background: linear-gradient(to right, #4CB8C4, #3CD3AD);
 }
+
+#pain{
+   display: flex;
+  justify-content: center;
+  display: grid;
+
+ 
+}
+#feel {
+  
+    border: 4px solid #ffffff;
+    padding: 50px;
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+    margin-top: 50px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+   
+}
+#those {
+
+    border: 4px solid #ffffff;
+    padding: 50px;
+   
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh;
+    margin: 10px;
+    color: aliceblue;
+    background: linear-gradient(to right, #4CB8C4, #3CD3AD);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 100px;
+}
+
+.image {
+    background: #333;
+    height: 100vh;
+    background-image: url(5173599.jpg);
+    background-position: center;
+    margin-bottom: 50px;
+    border: 4px solid white;
+ 
+   
+}
+
+.ti {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.i1{
+   color: #ffffff;
+   height: 300px;
+  background-image: url(6639413.png);
+  background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.i2{
+    color: #ffffff;
+   height: 300px;
+  background-image: url(6639419.png);
+   background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right;
+  text-align: end;
+  
+}
+
+.t1{
+     margin-left: 200px;
+     color: #DDDDDD;
+}
+
+.t2 {
+    color: #DDDDDD;
+    text-align: end;
+    margin-right: 200px;
+ 
+}
+
+#those:hover{
+    transform: scale(2);
+    border-radius: 50px;
+    
+  }
+
+  #feel:hover{
+    transform: scale(2);
+    border-radius: 50px;
+    
+  }
+
+  #timer:hover{
+    transform: scale(1.2);
+    border-radius: 20vh;
+    
+  }
+  
+
+
+
+  

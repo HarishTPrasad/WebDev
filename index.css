@@ -1,3 +1,9 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .somdika {
     display: flex;
         justify-content: center;
