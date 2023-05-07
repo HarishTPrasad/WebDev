@@ -2,12 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
+
 /* navBar */
-
-
-/* CSS for navBar */
-
-  
+ 
   .navBar {
     background-color: #333;
     overflow: hidden;
@@ -59,9 +57,8 @@
     }
   }
 
-
-  
-.container {
+.con
+ {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,8 +125,7 @@ h1 {
     border-radius: 15vh;
     margin: 10px;
     background: linear-gradient(to right, #4CB8C4, #3CD3AD);
-    margin-left: 150px;
-    margin-right: 150px;
+  
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -184,10 +180,7 @@ body
     height: 100vh;
     background-image: url(5173599.jpg);
     background-position: center;
-    margin-bottom: 50px;
-    border: 4px solid white;
- 
-   
+    margin-bottom: 50px;  
 }
 
 .ti {

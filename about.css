@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background-image: url('WhatsApp Image 2023-04-11 at 10.37.03 AM.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 50px;
+}
+
+.event {
+    margin-bottom: 50px;
+}
+
+.event-date {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.5;
+}
